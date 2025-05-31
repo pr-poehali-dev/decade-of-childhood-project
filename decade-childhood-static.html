@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Десятилетие детства в России</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom animations */
+        .fade-in-up {
+            animation: fadeInUp 0.6s ease-out;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .hover-scale {
+            transition: transform 0.2s ease;
+        }
+        
+        .hover-scale:hover {
+            transform: scale(1.05);
+        }
+        
+        /* Gradient backgrounds */
+        .gradient-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .gradient-secondary {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+        
+        .gradient-tertiary {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Hero Section -->
+    <section class="gradient-primary text-white py-20">
+        <div class="container mx-auto px-6 text-center">
+            <div class="fade-in-up">
+                <h1 class="text-5xl md:text-6xl font-bold mb-6">
+                    Десятилетие детства
+                </h1>
+                <p class="text-xl md:text-2xl mb-8 opacity-90">
+                    Указ Президента Российской Федерации
+                </p>
+                <p class="text-lg md:text-xl mb-12 max-w-3xl mx-auto leading-relaxed">
+                    Комплексная программа развития детства в России, направленная на создание благоприятных условий для развития детей и подростков
+                </p>
+                <div class="bg-white/10 backdrop-blur-sm rounded-lg p-8 max-w-4xl mx-auto">
+                    <img 
+                        src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?w=800&h=400&fit=crop" 
+                        alt="Указ Президента о Десятилетии детства"
+                        class="w-full rounded-lg shadow-2xl"
+                    >
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Goals Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Основные цели программы</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Создание системы комплексной поддержки детей и семей
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gradient-to-br from-blue-50 to-indigo-100 p-8 rounded-xl hover-scale">
+                    <div class="text-4xl mb-4">🏫</div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Развитие образования</h3>
+                    <p class="text-gray-600">Модернизация системы образования и создание современной образовательной среды</p>
+                </div>
+                
+                <div class="bg-gradient-to-br from-green-50 to-emerald-100 p-8 rounded-xl hover-scale">
+                    <div class="text-4xl mb-4">🏥</div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Охрана здоровья</h3>
+                    <p class="text-gray-600">Укрепление системы здравоохранения для детей и подростков</p>
+                </div>
+                
+                <div class="bg-gradient-to-br from-purple-50 to-violet-100 p-8 rounded-xl hover-scale">
+                    <div class="text-4xl mb-4">👨‍👩‍👧‍👦</div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Поддержка семей</h3>
+                    <p class="text-gray-600">Комплексная поддержка семей с детьми и развитие семейных ценностей</p>
+                </div>
+                
+                <div class="bg-gradient-to-br from-orange-50 to-amber-100 p-8 rounded-xl hover-scale">
+                    <div class="text-4xl mb-4">🎭</div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Культурное развитие</h3>
+                    <p class="text-gray-600">Развитие творческих способностей и приобщение к культурным ценностям</p>
+                </div>
+                
+                <div class="bg-gradient-to-br from-pink-50 to-rose-100 p-8 rounded-xl hover-scale">
+                    <div class="text-4xl mb-4">🛡️</div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Защита прав</h3>
+                    <p class="text-gray-600">Обеспечение защиты прав и интересов детей на всех уровнях</p>
+                </div>
+                
+                <div class="bg-gradient-to-br from-teal-50 to-cyan-100 p-8 rounded-xl hover-scale">
+                    <div class="text-4xl mb-4">🏃‍♂️</div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Физическое развитие</h3>
+                    <p class="text-gray-600">Популяризация спорта и здорового образа жизни среди детей</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-20 gradient-secondary text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Ключевые показатели</h2>
+                <p class="text-xl opacity-90">Достижения программы за период реализации</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center bg-white/10 backdrop-blur-sm rounded-xl p-8">
+                    <div class="text-4xl font-bold mb-2">29 млн</div>
+                    <p class="text-lg opacity-90">детей в России</p>
+                </div>
+                
+                <div class="text-center bg-white/10 backdrop-blur-sm rounded-xl p-8">
+                    <div class="text-4xl font-bold mb-2">15 тыс</div>
+                    <p class="text-lg opacity-90">образовательных учреждений</p>
+                </div>
+                
+                <div class="text-center bg-white/10 backdrop-blur-sm rounded-xl p-8">
+                    <div class="text-4xl font-bold mb-2">850+</div>
+                    <p class="text-lg opacity-90">реализованных программ</p>
+                </div>
+                
+                <div class="text-center bg-white/10 backdrop-blur-sm rounded-xl p-8">
+                    <div class="text-4xl font-bold mb-2">95%</div>
+                    <p class="text-lg opacity-90">охват детей программами</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Ключевые программы</h2>
+                <p class="text-xl text-gray-600">Основные инициативы в рамках Десятилетия детства</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover-scale">
+                    <img 
+                        src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=600&h=300&fit=crop" 
+                        alt="Демография"
+                        class="w-full h-48 object-cover"
+                    >
+                    <div class="p-8">
+                        <h3 class="text-2xl font-semibold mb-4 text-gray-800">Национальный проект "Демография"</h3>
+                        <p class="text-gray-600 mb-6">Комплекс мер по поддержке семей и повышению рождаемости в России</p>
+                        <ul class="space-y-2 text-gray-600">
+                            <li class="flex items-start">
+                                <span class="text-green-500 mr-2">✓</span>
+                                Материнский капитал
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-green-500 mr-2">✓</span>
+                                Ежемесячные выплаты семьям
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-green-500 mr-2">✓</span>
+                                Льготная ипотека для семей с детьми
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover-scale">
+                    <img 
+                        src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&h=300&fit=crop" 
+                        alt="Образование"
+                        class="w-full h-48 object-cover"
+                    >
+                    <div class="p-8">
+                        <h3 class="text-2xl font-semibold mb-4 text-gray-800">Национальный проект "Образование"</h3>
+                        <p class="text-gray-600 mb-6">Модернизация системы образования и создание современной образовательной среды</p>
+                        <ul class="space-y-2 text-gray-600">
+                            <li class="flex items-start">
+                                <span class="text-green-500 mr-2">✓</span>
+                                Цифровая образовательная среда
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-green-500 mr-2">✓</span>
+                                Поддержка талантливых детей
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-green-500 mr-2">✓</span>
+                                Обновление материально-технической базы
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6 text-center">
+            <h3 class="text-2xl font-semibold mb-4">Десятилетие детства в России</h3>
+            <p class="text-gray-400 mb-6">2018-2027 годы</p>
+            <p class="text-gray-400">
+                Указ Президента Российской Федерации от 29 мая 2017 г. № 240
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
